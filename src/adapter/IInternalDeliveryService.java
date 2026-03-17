@@ -1,4 +1,7 @@
-package adapter;
+package org.example.adapter;
 
-public class IInternalDeliveryService {
+public interface IInternalDeliveryService {
+
+    void deliverOrder(String orderId);
+    String getDeliveryStatus(String orderId);
 }
