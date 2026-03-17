@@ -1,4 +1,5 @@
-package decorator;
+package org.example.decorator;
 
-public class IReport {
+public interface IReport {
+    String generate();
 }
